@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826DA1B02328E27F00BF144D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DA1AF2328E27F00BF144D /* AppDelegate.swift */; };
+		826DA1B22328E27F00BF144D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DA1B12328E27F00BF144D /* ViewController.swift */; };
+		826DA1B52328E27F00BF144D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826DA1B32328E27F00BF144D /* Main.storyboard */; };
+		826DA1B82328E27F00BF144D /* tic_tac_toe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 826DA1B62328E27F00BF144D /* tic_tac_toe.xcdatamodeld */; };
+		826DA1BA2328E27F00BF144D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826DA1B92328E27F00BF144D /* Assets.xcassets */; };
+		826DA1BD2328E27F00BF144D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826DA1BB2328E27F00BF144D /* LaunchScreen.storyboard */; };
+		826DA1C82328E27F00BF144D /* tic_tac_toeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DA1C72328E27F00BF144D /* tic_tac_toeTests.swift */; };
+		826DA1D32328E27F00BF144D /* tic_tac_toeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826DA1D22328E27F00BF144D /* tic_tac_toeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		826DA1C42328E27F00BF144D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826DA1A42328E27F00BF144D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826DA1AB2328E27F00BF144D;
+			remoteInfo = "tic tac toe";
+		};
+		826DA1CF2328E27F00BF144D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826DA1A42328E27F00BF144D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826DA1AB2328E27F00BF144D;
+			remoteInfo = "tic tac toe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		826DA1AC2328E27F00BF144D /* tic tac toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tic tac toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826DA1AF2328E27F00BF144D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		826DA1B12328E27F00BF144D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		826DA1B42328E27F00BF144D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		826DA1B72328E27F00BF144D /* tic_tac_toe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tic_tac_toe.xcdatamodel; sourceTree = "<group>"; };
+		826DA1B92328E27F00BF144D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		826DA1BC2328E27F00BF144D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		826DA1BE2328E27F00BF144D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826DA1C32328E27F00BF144D /* tic tac toeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic tac toeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826DA1C72328E27F00BF144D /* tic_tac_toeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toeTests.swift; sourceTree = "<group>"; };
+		826DA1C92328E27F00BF144D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826DA1CE2328E27F00BF144D /* tic tac toeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tic tac toeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826DA1D22328E27F00BF144D /* tic_tac_toeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toeUITests.swift; sourceTree = "<group>"; };
+		826DA1D42328E27F00BF144D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826DA1A92328E27F00BF144D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DA1C02328E27F00BF144D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DA1CB2328E27F00BF144D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		826DA1A32328E27F00BF144D = {
+			isa = PBXGroup;
+			children = (
+				826DA1AE2328E27F00BF144D /* tic tac toe */,
+				826DA1C62328E27F00BF144D /* tic tac toeTests */,
+				826DA1D12328E27F00BF144D /* tic tac toeUITests */,
+				826DA1AD2328E27F00BF144D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826DA1AD2328E27F00BF144D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826DA1AC2328E27F00BF144D /* tic tac toe.app */,
+				826DA1C32328E27F00BF144D /* tic tac toeTests.xctest */,
+				826DA1CE2328E27F00BF144D /* tic tac toeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826DA1AE2328E27F00BF144D /* tic tac toe */ = {
+			isa = PBXGroup;
+			children = (
+				826DA1AF2328E27F00BF144D /* AppDelegate.swift */,
+				826DA1B12328E27F00BF144D /* ViewController.swift */,
+				826DA1B32328E27F00BF144D /* Main.storyboard */,
+				826DA1B92328E27F00BF144D /* Assets.xcassets */,
+				826DA1BB2328E27F00BF144D /* LaunchScreen.storyboard */,
+				826DA1BE2328E27F00BF144D /* Info.plist */,
+				826DA1B62328E27F00BF144D /* tic_tac_toe.xcdatamodeld */,
+			);
+			path = "tic tac toe";
+			sourceTree = "<group>";
+		};
+		826DA1C62328E27F00BF144D /* tic tac toeTests */ = {
+			isa = PBXGroup;
+			children = (
+				826DA1C72328E27F00BF144D /* tic_tac_toeTests.swift */,
+				826DA1C92328E27F00BF144D /* Info.plist */,
+			);
+			path = "tic tac toeTests";
+			sourceTree = "<group>";
+		};
+		826DA1D12328E27F00BF144D /* tic tac toeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				826DA1D22328E27F00BF144D /* tic_tac_toeUITests.swift */,
+				826DA1D42328E27F00BF144D /* Info.plist */,
+			);
+			path = "tic tac toeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826DA1AB2328E27F00BF144D /* tic tac toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826DA1D72328E27F00BF144D /* Build configuration list for PBXNativeTarget "tic tac toe" */;
+			buildPhases = (
+				826DA1A82328E27F00BF144D /* Sources */,
+				826DA1A92328E27F00BF144D /* Frameworks */,
+				826DA1AA2328E27F00BF144D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tic tac toe";
+			productName = "tic tac toe";
+			productReference = 826DA1AC2328E27F00BF144D /* tic tac toe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		826DA1C22328E27F00BF144D /* tic tac toeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826DA1DA2328E27F00BF144D /* Build configuration list for PBXNativeTarget "tic tac toeTests" */;
+			buildPhases = (
+				826DA1BF2328E27F00BF144D /* Sources */,
+				826DA1C02328E27F00BF144D /* Frameworks */,
+				826DA1C12328E27F00BF144D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826DA1C52328E27F00BF144D /* PBXTargetDependency */,
+			);
+			name = "tic tac toeTests";
+			productName = "tic tac toeTests";
+			productReference = 826DA1C32328E27F00BF144D /* tic tac toeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		826DA1CD2328E27F00BF144D /* tic tac toeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826DA1DD2328E27F00BF144D /* Build configuration list for PBXNativeTarget "tic tac toeUITests" */;
+			buildPhases = (
+				826DA1CA2328E27F00BF144D /* Sources */,
+				826DA1CB2328E27F00BF144D /* Frameworks */,
+				826DA1CC2328E27F00BF144D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826DA1D02328E27F00BF144D /* PBXTargetDependency */,
+			);
+			name = "tic tac toeUITests";
+			productName = "tic tac toeUITests";
+			productReference = 826DA1CE2328E27F00BF144D /* tic tac toeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826DA1A42328E27F00BF144D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "COE-028";
+				TargetAttributes = {
+					826DA1AB2328E27F00BF144D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					826DA1C22328E27F00BF144D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 826DA1AB2328E27F00BF144D;
+					};
+					826DA1CD2328E27F00BF144D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 826DA1AB2328E27F00BF144D;
+					};
+				};
+			};
+			buildConfigurationList = 826DA1A72328E27F00BF144D /* Build configuration list for PBXProject "tic tac toe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 826DA1A32328E27F00BF144D;
+			productRefGroup = 826DA1AD2328E27F00BF144D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826DA1AB2328E27F00BF144D /* tic tac toe */,
+				826DA1C22328E27F00BF144D /* tic tac toeTests */,
+				826DA1CD2328E27F00BF144D /* tic tac toeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826DA1AA2328E27F00BF144D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826DA1BD2328E27F00BF144D /* LaunchScreen.storyboard in Resources */,
+				826DA1BA2328E27F00BF144D /* Assets.xcassets in Resources */,
+				826DA1B52328E27F00BF144D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DA1C12328E27F00BF144D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DA1CC2328E27F00BF144D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826DA1A82328E27F00BF144D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826DA1B22328E27F00BF144D /* ViewController.swift in Sources */,
+				826DA1B02328E27F00BF144D /* AppDelegate.swift in Sources */,
+				826DA1B82328E27F00BF144D /* tic_tac_toe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DA1BF2328E27F00BF144D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826DA1C82328E27F00BF144D /* tic_tac_toeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826DA1CA2328E27F00BF144D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826DA1D32328E27F00BF144D /* tic_tac_toeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		826DA1C52328E27F00BF144D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826DA1AB2328E27F00BF144D /* tic tac toe */;
+			targetProxy = 826DA1C42328E27F00BF144D /* PBXContainerItemProxy */;
+		};
+		826DA1D02328E27F00BF144D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826DA1AB2328E27F00BF144D /* tic tac toe */;
+			targetProxy = 826DA1CF2328E27F00BF144D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		826DA1B32328E27F00BF144D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826DA1B42328E27F00BF144D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		826DA1BB2328E27F00BF144D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826DA1BC2328E27F00BF144D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826DA1D52328E27F00BF144D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		826DA1D62328E27F00BF144D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		826DA1D82328E27F00BF144D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic tac toe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.tic-tac-toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		826DA1D92328E27F00BF144D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic tac toe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.tic-tac-toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		826DA1DB2328E27F00BF144D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic tac toeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.tic-tac-toeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tic tac toe.app/tic tac toe";
+			};
+			name = Debug;
+		};
+		826DA1DC2328E27F00BF144D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic tac toeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.tic-tac-toeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tic tac toe.app/tic tac toe";
+			};
+			name = Release;
+		};
+		826DA1DE2328E27F00BF144D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic tac toeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.tic-tac-toeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tic tac toe";
+			};
+			name = Debug;
+		};
+		826DA1DF2328E27F00BF144D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tic tac toeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bg.tic-tac-toeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tic tac toe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826DA1A72328E27F00BF144D /* Build configuration list for PBXProject "tic tac toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826DA1D52328E27F00BF144D /* Debug */,
+				826DA1D62328E27F00BF144D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826DA1D72328E27F00BF144D /* Build configuration list for PBXNativeTarget "tic tac toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826DA1D82328E27F00BF144D /* Debug */,
+				826DA1D92328E27F00BF144D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826DA1DA2328E27F00BF144D /* Build configuration list for PBXNativeTarget "tic tac toeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826DA1DB2328E27F00BF144D /* Debug */,
+				826DA1DC2328E27F00BF144D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826DA1DD2328E27F00BF144D /* Build configuration list for PBXNativeTarget "tic tac toeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826DA1DE2328E27F00BF144D /* Debug */,
+				826DA1DF2328E27F00BF144D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		826DA1B62328E27F00BF144D /* tic_tac_toe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				826DA1B72328E27F00BF144D /* tic_tac_toe.xcdatamodel */,
+			);
+			currentVersion = 826DA1B72328E27F00BF144D /* tic_tac_toe.xcdatamodel */;
+			path = tic_tac_toe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 826DA1A42328E27F00BF144D /* Project object */;
+}
